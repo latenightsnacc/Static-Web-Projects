@@ -20,13 +20,8 @@
     }
 }
 .weather-icon {
-    #Layer_1{
-        height: 30px;
-        width: 30px;
-        background-color: transparent;
-        fill: rgb(255, 255, 14);
-        filter: drop-shadow(30px 10px 4px $secondary);
-        // filter:  drop-shadow(-20px 30px 5px rgba(0,0,0,0.14)) ;
+    svg{
+        height: 100px;
     }
 }
 .btn {

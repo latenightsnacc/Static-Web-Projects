@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    background-color: #f3f4f7;
+}
+
+.header {
+    background-color: rgb(0, 0, 255);
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.icon {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+}

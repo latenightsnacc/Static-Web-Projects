@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+* a:hover {
+  text-decoration: none;
+}
+
+body, html {
+  background-color: #f3f4f7;
+  position: relative;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+#side-nav, #main {
+  position: fixed;
+}
+
+#side-nav {
+  top: 0px;
+  width: 200px;
+  bottom: 0px;
+  height: 100%;
+  background: red;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+#main {
+  top: 0px;
+  left: 200px;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}
+
+.header {
+  background-color: blue;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+.icon {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.sc-icon {
+  font-size: 50px;
+  color: blue;
+}
+
+#side {
+  width: 100%;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.sideNav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 100%;
+}
+
+.sideNav-menu img {
+  height: 100px;
+}
+
+.sideNav-menu .logo {
+  font-size: 50px;
+  line-height: 100px;
+}
+
+.sideNav-menu .side-menu {
+  padding-top: 20px;
+}
+
+.sideNav-menu li {
+  margin-bottom: 20px;
+}
+
+.sideNav-menu li .menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #413c3c;
+}
+
+.sideNav-menu li .menu-item:hover {
+  color: blue;
+}
+
+.card {
+  border: 1px solid #fff;
+}
+
+.card .card-header {
+  background-color: #fff !important;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.card .card-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+.card .card-title span {
+  font-size: 14px;
+  color: grey;
+}
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 120px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 30px;
+}
+
+.progress-bar {
+  background-color: blue !important;
+}
+
+.table-title {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=stylesheet.css.map */

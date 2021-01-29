@@ -28,8 +28,8 @@
     font-size: 17px;
 
     &:hover {
-        text-transform: uppercase;
-    
+        text-decoration: wavy 2px $blue;
+        font-weight: 700;
         
     }
 }
@@ -37,10 +37,6 @@ a.btn {
     color: white !important;
     padding: 10px 40px;
     font-weight: bold;
-    &:hover {
-        text-transform: capitalize;   
-    }
-
 }
 .banner-txt {
     h1 {
@@ -162,22 +158,7 @@ img.banner-img {
     background-color: $blue;
     color: $primary;
 }
-section.wave {
-    width: 100%;
-    min-height: 200px;
-}
 .wave {
     position: relative;
-    background: $darkB;
-    
-}
-.wave::before {
-    content: '';
-    position: absolute; 
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 150px;
-    background: url('/') ;
-    background-size: cover;
+    background: $blue;
 }
